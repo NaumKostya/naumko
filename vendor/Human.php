@@ -45,5 +45,6 @@ class Human {
         $str .='Фамилия' . $this->surname;
         $str .='Возраст' . $this->age;
         $str .='Адрес' . $this->address;
+        return $str;
     }
 }
