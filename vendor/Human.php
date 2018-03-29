@@ -41,10 +41,10 @@ class Human {
      */
     public function __toString() {
         $str='';
-        $str .='Имя' . $this->name;
-        $str .='Фамилия' . $this->surname;
-        $str .='Возраст' . $this->age;
-        $str .='Адрес' . $this->address;
+        $str .='Имя -' . $this->name.'<br>';
+        $str .='Фамилия -' . $this->surname.'<br>';
+        $str .='Возраст ' . $this->age.'<br>';
+        $str .='Адрес ' . $this->address.'<br>';
         return $str;
     }
 }
